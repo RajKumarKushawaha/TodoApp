@@ -1,2 +1,2 @@
 # TodoApp
-Todo using html and javascript
+Todo using Dom with html, css and javascript.
