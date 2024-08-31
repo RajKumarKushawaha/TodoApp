@@ -1,0 +1,84 @@
+/* style.css */
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Light cyan background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Center align all content */
+            height: 100vh;
+            flex-direction: column; /* Stack elements vertically */
+        }
+        
+        h2 {
+            text-align: center;
+            color: #00796b; /* Teal color */
+            margin-bottom: 20px; /* Space between heading and input field */
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .input-group {
+            display: flex;
+            width: 300px; /* Total width of input and button */
+        }
+        
+        input {
+            flex: 1; /* Input takes remaining space */
+            padding: 10px;
+            border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+            border: 1px solid #00796b;
+            border-right: none; /* Remove right border to connect with button */
+        }
+        
+        button.add-task {
+            padding: 10px;
+            border: none;
+            border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+            background-color: #00796b; /* Teal color */
+            color: white;
+            cursor: pointer;
+        }
+        
+        button.add-task:hover {
+            background-color: #004d40; /* Darker teal on hover */
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+            width: 320px;
+        }
+        
+        li {
+            background-color: #ffffff;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .delete {
+            background-color: #f44336; /* Red color for delete button */
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px; /* Space between Add Task and Delete buttons */
+        }
+        
+        .delete:hover {
+            background-color: #d32f2f; /* Darker red on hover */
+        }
+        
